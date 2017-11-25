@@ -1,9 +1,4 @@
-// toggle class scroll 
-$(window).scroll(function() {
-    if ($(this).scrollTop() > 50) {
-        $('.navbar-trans').addClass('afterscroll');
-    } else {
-        $('.navbar-trans').removeClass('afterscroll');
-    }
-
+$(window).scroll(function(event) {
+    var scroll = $(window).scrollTop();
+    document.getElementById("scroller").innerHTML = scroll;
 });
