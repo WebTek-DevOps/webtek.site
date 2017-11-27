@@ -15,3 +15,20 @@
     padding: 16px;
     text-decoration: none;
 }
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+}
+
+.navbar-is-stuck+.content {
+    padding-top: 60px;
+}
+
+#navbar {
+    overflow: hidden;
+    background-color: white;
+    border-radius: 0px;
+    border-color: white
+}
