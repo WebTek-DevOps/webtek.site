@@ -29,9 +29,30 @@
 #navbar {
     background-color: white;
     border-radius: 0px;
-    border-color: white
+    border-bottom: 2px solid #29b6f6;
+}
+
+ul.nav>li:hover {
+    box-shadow: 0px 0px 10px #e1f5fe;
+}
+
+.activated>a {
+    background-color: #29b6f6;
+    font-weight: bold;
+    color: white;
+}
+
+.activated>a:hover {
+    background-color: #03a9f4;
+    box-shadow: 0px 0px 10px #03a9f4;
 }
 
 .myHeader {
+    box-shadow: 0px 3px 8px grey;
+}
+
+.material {
+    color: #00acc1;
+    background-color: #e0f7fa;
     box-shadow: 0px 3px 8px grey;
 }
