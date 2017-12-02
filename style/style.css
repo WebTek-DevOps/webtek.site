@@ -1,3 +1,9 @@
+body{
+    background-image: url("../images/back1.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 50% 100%;
+}
 .topnav {
     list-style-type: none;
     margin: 0;
@@ -332,7 +338,7 @@ footer iframe {
 
 /*//////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////
-///////////////style css //////////////////////////////
+///////////////slide css //////////////////////////////
 /////////////////////////////////////////////////////*/
 
 h3 {
@@ -433,11 +439,11 @@ h3 {
     display: block;
     padding: 10px;
     color: #FFF;
-    text-decaration: none;
+    text-decoration: none;
 }
 .information_menu_mobile li:hover a {
     background: #0383c5;
-    text-decaration: none;
+    text-decoration: none;
 }
 .slideshow {
     overflow: hidden;
@@ -519,20 +525,46 @@ h3 {
     z-index: 2;
 }
 html,
-body,
 .carousel,
 .carousel-inner,
 .carousel-inner .item {
     height: 100%;
 }
 .item:nth-child(1) {
-    background: #74C390;
+    background: url("../images/slide2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%
 }
 .item:nth-child(2) {
-    background: #51BCE8;
+    background: url("../images/slide3.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%
 }
 .item:nth-child(3) {
-    background: #E46653;
+    background: url("../images/slide4.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%
+}
+.item:nth-child(4) {
+    background: url("../images/slide5.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%
+}
+.item:nth-child(5) {
+    background: url("../images/slide6.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%
+}
+.item:nth-child(6) {
+    background: url("../images/stats.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%
 }
 @-webkit-keyframes animate-stripes {
     0% {
@@ -579,9 +611,13 @@ body,
     }
 }
 
+.carousel-caption{
+    text-shadow: 0px 0px 5px black;
+}
+
 /*//////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////
-///////////////style css //////////////////////////////
+///////////////slide css //////////////////////////////
 /////////////////////////////////////////////////////*/
 
 
