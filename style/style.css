@@ -636,7 +636,7 @@ ul.simplefilter {
 
 .simplefilter li {
 	color: black;
-	border-bottom: 3px solid #00bbff;
+	border-bottom: 3px solid #29b6f6;
 	cursor: pointer;
 	display: inline-block;
 	text-transform: uppercase;
@@ -646,7 +646,7 @@ ul.simplefilter {
     background-color: #f9feff;
 }
 .simplefilter li.active,.simplefilter li:hover {
-    background-color: #00bbff;
+    background-color: #29b6f6;
 	border-bottom: 3px solid grey
 }
 .agileits_banner_bottom_grids,.w3layouts_work_grids,.wthree_testimonial_grids,.wthree_services_grids,.w3layouts_mail_grid{
@@ -659,7 +659,7 @@ ul.simplefilter {
 	margin:0 0 0;
 }
 .img-responsive{
-	border-bottom:3px solid #00bbff;
+	border-bottom:3px solid #29b6f6;
 	border-radius: 10px;
 }
 .w3-display-right{position:absolute;right:0%;transform:translate(0%,-50%);-ms-transform:translate(0%,-50%);font-size: 1.5em;}
