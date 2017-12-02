@@ -1,8 +1,11 @@
-body{
-    background-image: url("../images/back1.jpg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: 50% 100%;
+.navbar-toggle {
+    border-color: #ddd
+}
+.navbar-toggle:focus, .navbar-toggle:hover {
+    background-color: #ddd
+}
+.navbar-toggle .icon-bar {
+    background-color: #888
 }
 .topnav {
     list-style-type: none;
