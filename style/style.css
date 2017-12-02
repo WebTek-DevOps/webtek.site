@@ -63,7 +63,7 @@ ul.nav>li:hover {
 
 .myHeader {
     box-shadow: 0px 3px 8px grey;
-    z-index: 1000;
+    z-index: 999999;
     
 }
 
