@@ -26,6 +26,7 @@
 
 <body onscroll="myFunction() ">
     <header style="z-index: 99999;" id="header" class="myHeader ">
+    <header id="header" class="myHeader ">
         <!-- this is our full header -->
         <div style="margin-right: 20px " class=" ">
             <ul class="topnav ">
@@ -242,6 +243,233 @@
         <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint
             efficiantur his ad. Eum no molestiae voluptatibus.</p>
 
+            <!-- category -->
+<div class="services">
+    <div class="container">
+        <div class="wthree_services_grids">	
+            <ul class="simplefilter">
+                <li class="active" data-filter="all">All</li>
+                <li data-filter="1">Castles</li>
+                <li data-filter="2">Musems</li>
+                <li data-filter="3">relegious Places</li>
+                <li data-filter="4">Caverns</li>
+                <li data-filter="5">Natural features</li>
+                <li data-filter="6">Others</li>
+            </ul>
+            <div class="filtr-container">
+                <div class="col-md-4 col-sm-4 filtr-item" data-category="1" data-sort="">
+                    <?php
+                    require_once('Connections/conn.php');
+                    $sql = "select * from touristicdata where t_cat_id = '2'";
+                    $result = mysqli_query($conn, $sql);
+                        
+                             while($row = mysqli_fetch_assoc($result)) {
+                            $name = $row['site_name'];
+                            $content = $row['conid'];
+                            $id = $row['tid'];
+                    
+                    $sql2= "select * from content where conid = $content";
+                    $result2 = mysqli_query($conn, $sql2);
+                         
+                             while($row2 = mysqli_fetch_assoc($result2)) {
+                                $img = $row2['content'];
+                                $ext = $row2['ext'];	
+                            
+                    ?>
+                    <div class="agileits_portfolio_grid">
+                        <form method="post" action="secondarypage.php">
+                        <button name="id" value="<?php echo $id; ?>"/>
+                        </form>
+                            <img class="img-responsive" src="uploads/<?php echo $img . "." . $ext; ?>" alt=""  /> 
+                            <div class="w3_textbox">
+                                <h4>Tourists site of</h4>
+                                <p><?php echo $name; ?></p>
+                            </div>
+                     
+                    </div>
+                <?php
+                            }}
+                ?>
+                </div>
+                <div class="col-md-4 col-sm-4 filtr-item" data-category="2" data-sort="">
+                    <?php
+                    require_once('Connections/conn.php');
+                    $sql = "select * from touristicdata where t_cat_id = '1'";
+                    $result = mysqli_query($conn, $sql);
+                        
+                             while($row = mysqli_fetch_assoc($result)) {
+                            $name2 = $row['site_name'];
+                            $content2 = $row['conid'];
+                            $id2 = $row['tid'];
+                    $sql2= "select * from content where conid = $content2";
+                    $result2 = mysqli_query($conn, $sql2);
+                         
+                             while($row2 = mysqli_fetch_assoc($result2)) {
+                                $img2 = $row2['content'];
+                                $ext2 = $row2['ext'];	
+                            
+                    ?>
+                    <div class="agileits_portfolio_grid">
+                        <!--<a class="group1" href="uploads/<?php echo  $img2 . "." . $ext2; ?>" title="Tourists site of">-->
+                        <form method="post" action="secondarypage.php">
+                        <button name="id" value="<?php echo $id2; ?>"/>
+                        </form>
+                            <img class="img-responsive" src="uploads/<?php echo $img2 . "." . $ext2; ?>" alt=""  /> 
+                            <div class="w3_textbox">
+                                <h4>Tourists site of</h4>
+                                <p><?php echo $name2; ?></p>
+                            </div>
+                        </a> 
+                    </div>
+                <?php
+                            }}
+                ?>
+                </div>
+                                    <div class="col-md-4 col-sm-4 filtr-item" data-category="3" data-sort="">
+                    <?php
+                    require_once('Connections/conn.php');
+                    $sql = "select * from touristicdata where t_cat_id = '3'";
+                    $result = mysqli_query($conn, $sql);
+                        
+                             while($row = mysqli_fetch_assoc($result)) {
+                            $name3 = $row['site_name'];
+                            $content3 = $row['conid'];
+                            $id3 = $row['tid'];
+                    $sql2= "select * from content where conid = $content3";
+                    $result2 = mysqli_query($conn, $sql2);
+                         
+                             while($row2 = mysqli_fetch_assoc($result2)) {
+                                $img3 = $row2['content'];
+                                $ext3 = $row2['ext'];	
+                            
+                    ?>
+                    <div class="agileits_portfolio_grid">
+                    <form method="post" action="secondarypage.php">
+                        <button name="id" value="<?php echo $id3; ?>"/>
+                        </form>
+                        <!--<a class="group1" href="uploads/<?php echo  $img3 . "." . $ext3; ?>" title="Tourists site of">-->
+                            <img class="img-responsive" src="uploads/<?php echo $img3 . "." . $ext3; ?>" alt=""  /> 
+                            <div class="w3_textbox">
+                                <h4>Tourists site of</h4>
+                                <p><?php echo $name3; ?></p>
+                            </div>
+                        </a> 
+                    </div>
+                <?php
+                            }}
+                ?>
+                </div>
+                  <div class="col-md-4 col-sm-4 filtr-item" data-category="4" data-sort="">
+                    <?php
+                    require_once('Connections/conn.php');
+                    $sql = "select * from touristicdata where t_cat_id = '4'";
+                    $result = mysqli_query($conn, $sql);
+                        
+                             while($row = mysqli_fetch_assoc($result)) {
+                            $name4 = $row['site_name'];
+                            $content4 = $row['conid'];
+                            $id4 = $row['tid'];
+                    $sql2= "select * from content where conid = $content4";
+                    $result2 = mysqli_query($conn, $sql2);
+                         
+                             while($row2 = mysqli_fetch_assoc($result2)) {
+                                $img4 = $row2['content'];
+                                $ext4 = $row2['ext'];	
+                            
+                    ?>
+                    <div class="agileits_portfolio_grid">
+                    <form method="post" action="secondarypage.php">
+                        <button name="id" value="<?php echo $id4; ?>"/>
+                        </form>
+                        <!--<a class="group1" href="uploads/<?php echo  $img4 . "." . $ext4; ?>" title="Tourists site of">-->
+                            <img class="img-responsive" src="uploads/<?php echo $img4 . "." . $ext4; ?>" alt=""  /> 
+                            <div class="w3_textbox">
+                                <h4>Tourists site of</h4>
+                                <p><?php echo $name4; ?></p>
+                            </div>
+                        </a> 
+                    </div>
+                <?php
+                            }}
+                ?>
+                </div>
+                  <div class="col-md-4 col-sm-4 filtr-item" data-category="5" data-sort="">
+                    <?php
+                    require_once('Connections/conn.php');
+                    $sql = "select * from touristicdata where t_cat_id = '5'";
+                    $result = mysqli_query($conn, $sql);
+                        
+                             while($row = mysqli_fetch_assoc($result)) {
+                            $name5 = $row['site_name'];
+                            $content5 = $row['conid'];
+                            $id5 = $row['tid'];
+                    $sql2= "select * from content where conid = $content5";
+                    $result2 = mysqli_query($conn, $sql2);
+                         
+                             while($row2 = mysqli_fetch_assoc($result2)) {
+                                $img5 = $row2['content'];
+                                $ext5 = $row2['ext'];	
+                            
+                    ?>
+                    <div class="agileits_portfolio_grid">
+                    <form method="post" action="secondarypage.php">
+                        <button name="id" value="<?php echo $id5; ?>"/>
+                        </form>
+                        <!--<a class="group1" href="uploads/<?php echo  $img5 . "." . $ext5; ?>" title="Tourists site of">-->
+                            <img class="img-responsive" src="uploads/<?php echo $img5 . "." . $ext5; ?>" alt=""  /> 
+                            <div class="w3_textbox">
+                                <h4>Tourists site of</h4>
+                                <p><?php echo $name5; ?></p>
+                            </div>
+                        </a> 
+                    </div>
+                <?php
+                            }}
+                ?>
+                </div>	
+                  <div class="col-md-4 col-sm-4 filtr-item" data-category="6" data-sort="">
+                    <?php
+                    require_once('Connections/conn.php');
+                    $sql = "select * from touristicdata where t_cat_id = '6'";
+                    $result = mysqli_query($conn, $sql);
+                        
+                             while($row = mysqli_fetch_assoc($result)) {
+                            $name6 = $row['site_name'];
+                            $content6 = $row['conid'];
+                            $id6 = $row['tid'];
+                    $sql2= "select * from content where conid = $content6";
+                    $result2 = mysqli_query($conn, $sql2);
+                         
+                             while($row2 = mysqli_fetch_assoc($result2)) {
+                                $img6 = $row2['content'];
+                                $ext6 = $row2['ext'];	
+                            
+                    ?>
+                    <div class="agileits_portfolio_grid">
+                    <form method="post" action="secondarypage.php">
+                        <button name="id" value="<?php echo $id6; ?>"/>
+                        </form>
+                        <!--<a class="group1" href="uploads/<?php echo  $img6 . "." . $ext6; ?>" title="Tourists site of">-->
+                            <img class="img-responsive" src="uploads/<?php echo $img6 . "." . $ext6; ?>" alt=""  />
+                            <div class="w3_textbox">
+                                <h4>Tourists site of</h4>
+                                <p>name</p>
+                            </div>
+                        </a> 
+                    </div>
+                <?php
+                            }}
+                ?>
+                </div>	
+               <div class="clearfix"></div>
+            </div>
+        </div>
+        <br>
+    </div>
+</div>
+
+<!-- category -->
+
         <p>The navbar will stick to the top when you reach its scroll position.</p>
         <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint
             efficiantur his ad. Eum no molestiae voluptatibus.</p>
@@ -296,7 +524,7 @@
     <footer>
 
         <div class="footerHeader"></div>
-        <div class="container">
+        <div class="container" style="background-color:#0277bd;">
             <div class="col-md-4">
                 <h3>About us</h3>
                 <p>
@@ -398,5 +626,15 @@
     </script>
 </body>
 
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+	function hideURLbar(){ window.scrollTo(0,1); } </script>
+<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+<script src="js/jquery.filterizr.js"></script> 
+<script src="js/controls.js"></script>
+<script type="text/javascript">
+$(function() {
+	$('.filtr-container').filterizr();
+});
+</script>
 
 </html>
