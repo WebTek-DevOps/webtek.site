@@ -8,6 +8,7 @@
     <meta http-equiv="Expires" content="0 " />
 
     <link rel="stylesheet " type="text/css " href="css/slideshow.css" />
+    <link rel="stylesheet " type="text/css " href="css/w3.css" />
     <link rel="stylesheet " type="text/css " href="css/bootstrap.min.css" />
     <link rel="stylesheet " type="text/css " href="style/style.css" />
    <!-- <link href='https://fonts.googleapis.com/css?family=Amaranth' rel='stylesheet'> -->
@@ -87,72 +88,29 @@
             </div>
         </div>
     </header>
-    <div class="content">
-
-
+    <div class="content container">
+        
         <!--  slide -->
-        <div class="slider">
-            <!-- slides -->
-            <div class="slider__slides">
-                <div class="slide s--active">
-                    <div class="slide__inner">
-                        <div class="slide__content">
-                            <h2 class="slide__heading">Clip-Path Revealing Slider</h2>
-                            <p class="slide__text">Greetings, Traveler!</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="slide">
-                    <div class="slide__inner">
-                        <div class="slide__content">
-                            <h2 class="slide__heading">Simple Animation</h2>
-                            <p class="slide__text">Clip-path magic!</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="slide">
-                    <div class="slide__inner">
-                        <div class="slide__content">
-                            <h2 class="slide__heading">Very Stylish Effect!</h2>
-                            <p class="slide__text">It looks cool, isn't it?</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="slide">
-                    <div class="slide__inner">
-                        <div class="slide__content">
-                            <h2 class="slide__heading">Limited browser support</h2>
-                            <p class="slide__text">Forget about IE/Edge and FF</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="slide s--prev">
-                    <div class="slide__inner">
-                        <div class="slide__content">
-                            <h2 class="slide__heading">Check my other stuff!</h2>
-                            <p class="slide__text">
-                                <a href="https://codepen.io/suez/pens/public/" target="_blank">Other demos</a> and
-                                <a href="https://twitter.com/NikolayTalanov" target="_blank">Twitter</a>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- slides end -->
-            <div class="slider__control">
-                <div class="slider__control-line"></div>
-                <div class="slider__control-line"></div>
-            </div>
-            <div class="slider__control slider__control--right m--right">
-                <div class="slider__control-line"></div>
-                <div class="slider__control-line"></div>
+        <div class="w3-content w3-display-container" style="max-width:100%; margin-top:0px!important;">
+            <img class="mySlides" src="images/slide2.jpg" style="width:100%">
+            <img class="mySlides" src="images/slide3.jpg" style="width:100%">
+            <img class="mySlides" src="images/slide4.jpg" style="width:100%">
+            <img class="mySlides" src="images/slide5.jpg" style="width:100%">
+            <img class="mySlides" src="images/slide6.jpg" style="width:100%">
+            <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
+                <div class="w3-left w3-hover-text-khaki" style="color: cyan;" onclick="plusDivs(-1)">&#10094;</div>
+                <div class="w3-right w3-hover-text-khaki" style="color: cyan;"onclick="plusDivs(1)">&#10095;</div>
+                <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
+                <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
+                <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
+                <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(4)"></span>
+                <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(5)"></span>
             </div>
         </div>
-        
-
         <!--    slide  -->
         <!-- this is our body content -->
         <h3>Sticky Navigation Example</h3>
+        
         <p>The navbar will stick to the top when you reach its scroll position.</p>
         <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint
             efficiantur his ad. Eum no molestiae voluptatibus.</p>
@@ -195,10 +153,10 @@
                         <form method="post" action="secondarypage.php">
                         <button name="id" value="<?php echo $id; ?>"/>
                         </form>
-                            <img class="img-responsive" src="uploads/<?php echo $img . "." . $ext; ?>" alt=""  /> 
+                            <img class="img-responsive" src=""." . $ext; ?>" alt=""  /> 
                             <div class="w3_textbox">
                                 <h4>Tourists site of</h4>
-                                <p><?php echo $name; ?></p>
+                                <p></p>
                             </div>
                      
                     </div>
