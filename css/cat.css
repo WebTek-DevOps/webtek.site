@@ -1,6 +1,6 @@
 @import "https://fonts.googleapis.com/css?family=Economica";
 
-.container {
+.container1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -10,18 +10,16 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  height: 100vh;
-  width: 100vw;
+  height: 50%;
+
+  margin-right: 20px;
 }
-.container:hover > .section {
-  -webkit-filter: brightness(22%);
-          filter: brightness(22%);
-}
-.container:hover > .section:hover {
+
+.container1hover > .section:hover {
   -webkit-filter: brightness(100%);
           filter: brightness(100%);
 }
-.container .section {
+.container1 .section {
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
@@ -40,13 +38,13 @@
   -ms-flex: 1;
       flex: 1;
 }
-.container .section .cont_title {
+.container1 .section .cont_title {
   position: relative;
-  margin: auto;
   width: 100%;
-  height: auto;
+  height: 100%;
   text-align: center;
-  margin-top: 37vh;
+  margin: auto;
+  margin-top: 50%;
   /*.letter-container{
     position: relative;
     width: 2vw;
@@ -72,33 +70,35 @@
     }
   }*/
 }
-.container .section .cont_title h1 {
+.container1 .section .cont_title h1 {
   text-transform: uppercase;
   color: white;
   font-family: 'Economica', sans-serif;
-  text-shadow: 1px 2px 5px rgba(0, 0, 0, 0.5);
-  font-size: 3.5vw;
+  text-shadow: 1px 2px 5px rgb(0, 0, 0);
+  font-size: 100%;
   margin: 0;
   -webkit-transition: font-size 0.3s;
   transition: font-size 0.3s;
   vertical-align: middle;
+  margin: auto;
 }
-.container .section .cont_title h3 {
+.container1 .section .cont_title h3 {
   text-transform: uppercase;
   font-family: 'Economica', sans-serif;
-  font-size: 1.3vw;
+  font-size: 80%;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
   color: white;
   letter-spacing: 3px;
-  text-shadow: 1px 2px 5px rgba(0, 0, 0, 0.5);
+  text-shadow: 1px 2px 5px rgb(0, 0, 0);
+  margin: auto;
 }
-.container .section .cont_desc {
+.container1 .section .cont_desc {
   position: relative;
   display: block;
   text-align: center;
-  width: 12vw;
-  height: auto;
+  width: auto;
+ 
   margin: auto;
   opacity: 0;
   -webkit-transition: opacity 0.8s, padding-top 0.9s, -webkit-transform 0.7s;
@@ -109,13 +109,13 @@
   -webkit-transform: scale(1);
           transform: scale(1);
 }
-.container .section .cont_desc p {
+.container1 .section .cont_desc p {
   margin: 0;
   font-family: 'Economica', sans-serif;
   color: white;
-  font-size: 16px;
+  font-size: 15px;
 }
-.container .section:hover {
+.container1 .section:hover {
   -webkit-box-flex: 1.8;
       -ms-flex-positive: 1.8;
           flex-grow: 1.8;
@@ -124,21 +124,21 @@
   transition: flex 0.2s;
   transition: flex 0.2s, -webkit-box-flex 0.2s, -ms-flex 0.2s;
 }
-.container .section:hover > .cont_title h1 {
-  font-size: 5.3vw;
+.container1 .section:hover > .cont_title h1 {
+  font-size: 25px;
   -webkit-transition: font-size 0.4s;
   transition: font-size 0.4s;
 }
-.container .section:hover > .cont_title h3 {
-  font-size: 1.6vw;
+.container1 .section:hover > .cont_title h3 {
+  font-size: 25px
   -webkit-transition: all 0.4s;
   transition: all 0.4s;
 }
-.container .section:hover > .cont_desc {
+.container1 .section:hover > .cont_desc {
   opacity: 1;
   padding-top: 2vh;
-  -webkit-transform: scale(1.5);
-          transform: scale(1.5);
+  -webkit-transform: scale(0.5);
+          transform: scale(0.5);
   -webkit-transition: opacity 0.7s, padding-top 0.5s, -webkit-transform 0.1s;
   transition: opacity 0.7s, padding-top 0.5s, -webkit-transform 0.1s;
   transition: opacity 0.7s, padding-top 0.5s, transform 0.1s;
@@ -146,18 +146,18 @@
   -webkit-transition-delay: 0s, 0.1s, 0s;
           transition-delay: 0s, 0.1s, 0s;
 }
-.container .section:nth-child(1) {
+.container1 .section:nth-child(1) {
   background: url("https://artsandculture.withgoogle.com/gcs/national-parks-service/en-us/Asset-Kenai-desktop.jpg") center;
 }
-.container .section:nth-child(2) {
+.container1 .section:nth-child(2) {
   background: url("https://artsandculture.withgoogle.com/gcs/national-parks-service/en-us/Asset-Hawaii-desktop.jpg") center;
 }
-.container .section:nth-child(3) {
+.container1 .section:nth-child(3) {
   background: url("https://artsandculture.withgoogle.com/gcs/national-parks-service/en-us/de0b954d-ca76-41d3-ac3a-900c6bc25139.jpg") center;
 }
-.container .section:nth-child(4) {
+.container1 .section:nth-child(4) {
   background: url("https://artsandculture.withgoogle.com/gcs/national-parks-service/en-us/Asset-Bryce-desktop.jpg") center;
 }
-.container .section:nth-child(5) {
+.container1 .section:nth-child(5) {
   background: url("https://artsandculture.withgoogle.com/gcs/national-parks-service/en-us/Asset-Tortugas-desktop.jpg") center;
 }
