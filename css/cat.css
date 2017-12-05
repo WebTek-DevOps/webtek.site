@@ -105,7 +105,7 @@
   transition: opacity 0.8s, padding-top 0.9s, -webkit-transform 0.7s;
   transition: opacity 0.8s, transform 0.7s, padding-top 0.9s;
   transition: opacity 0.8s, transform 0.7s, padding-top 0.9s, -webkit-transform 0.7s;
-  padding-top: 6vh;
+ 
   -webkit-transform: scale(1);
           transform: scale(1);
 }
@@ -116,6 +116,7 @@
   font-size: 15px;
 }
 .container1 .section:hover {
+ 
   -webkit-box-flex: 1.8;
       -ms-flex-positive: 1.8;
           flex-grow: 1.8;
@@ -125,14 +126,16 @@
   transition: flex 0.2s, -webkit-box-flex 0.2s, -ms-flex 0.2s;
 }
 .container1 .section:hover > .cont_title h1 {
-  font-size: 25px;
+  font-size: 200%;
   -webkit-transition: font-size 0.4s;
   transition: font-size 0.4s;
+  margin-top: 20%;
 }
 .container1 .section:hover > .cont_title h3 {
-  font-size: 25px
+  font-size: 150%;
   -webkit-transition: all 0.4s;
   transition: all 0.4s;
+  
 }
 .container1 .section:hover > .cont_desc {
   opacity: 1;
