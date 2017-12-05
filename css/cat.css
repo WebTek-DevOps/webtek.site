@@ -10,7 +10,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  height: 50%;
+  height: 35%;
 
   margin-right: 20px;
 }
@@ -44,7 +44,7 @@
   height: 100%;
   text-align: center;
   margin: auto;
-  margin-top: 50%;
+  margin-top: 35%;
   /*.letter-container{
     position: relative;
     width: 2vw;
@@ -74,7 +74,7 @@
   text-transform: uppercase;
   color: white;
   font-family: 'Economica', sans-serif;
-  text-shadow: 1px 2px 5px rgb(0, 0, 0);
+  text-shadow: 1px 2px 5px rgba(0, 0, 0, 0.829);
   font-size: 100%;
   margin: 0;
   -webkit-transition: font-size 0.3s;
