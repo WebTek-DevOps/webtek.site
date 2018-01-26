@@ -70,7 +70,7 @@ a:focus{
     margin-right: 0;
 }
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-    color: #f0b50a;
+    color: #00cccc;
     background:none;
 }
 .navbar-default .navbar-nav > .active > a:before{
@@ -85,7 +85,7 @@ a:focus{
     text-transform: uppercase;
 }
 .navbar-default .navbar-nav > li > a:hover{
-    color: #f0b50a;
+    color: #00cccc;
 }
 nav ul.footericons {
     float: left;
@@ -142,7 +142,7 @@ nav.navbar.navbar-default {
     font-size: 13px;
     text-align: center;
     letter-spacing: 2px;
-    color: #f0b50a;
+    color: #00cccc;
 }
 .agile_short_dropdown {
     border-radius: 0;
@@ -236,7 +236,7 @@ nav.navbar.navbar-default {
     font-size: 16px;
     padding: .7em 2em;
     text-decoration: none;
-    background: #f0b50a;
+    background: #00cccc;
     text-align: center;
     letter-spacing: 1px;
     border-radius: 30px;
@@ -310,7 +310,7 @@ a.w3_agile_vimeo:hover{
     font-size: 30px;
     color: #fff;
 	padding-bottom: 20px;
-    border-bottom: 2px solid #f0b50a;
+    border-bottom: 2px solid #00cccc;
 	position: relative;
 }
 .bottomgrids p {
@@ -326,7 +326,6 @@ a.w3_agile_vimeo:hover{
     margin: 1em 0 .8em;
 }
 .bottomgrids span.fa {
-    position: absolute;
     top: 22%;
 	color: #00acee;
 }
@@ -396,7 +395,7 @@ div#team {
     margin-right: 5%;
     padding: 2em 1em;
     border: 2px solid #999;
-    border-bottom: 10px solid #f0b500;
+    border-bottom: 10px solid #00cccc;
 }
 .agileits_team_grid:nth-child(3) {
     margin-right: 0%;
@@ -487,7 +486,7 @@ h3.wthree_head.two {
 }
 .agile_testimonials h3 span{
     font-weight: 700;
-	color :#f0b50a;
+	color :#00cccc;
 }
 .testimg img{
 	border-radius:50%;
@@ -564,7 +563,7 @@ h3.agile_heading {
     font-weight: 700;
 }
 .w3l_header:after {
-    border-top: 2px solid #f0b50a;
+    border-top: 2px solid #00cccc;
     display: block;
     width: 81px;
     content: "";
@@ -662,7 +661,7 @@ h3.agile_heading {
     padding: 10px 21px;
     font-size: 15px;
     cursor: pointer;
-    background: #f0b50a;
+    background: #00cccc;
     margin: 4px 0 0 0px;
     outline: none;
     border: none;
@@ -707,7 +706,7 @@ h3.agile_heading {
     letter-spacing: 1px;
 }
 .copy-right p a {
-       color: #f0b50a;
+       color: #00cccc;
 }
 .copy-right p a:hover {
     color: #fff;
@@ -747,7 +746,6 @@ ul.footericons {
 	position: relative;
 }
 .contactgrids {
-    position: absolute;
     bottom: 0px;
 	left: 14%;
     width: 73%;
@@ -1330,7 +1328,7 @@ ul.banneraddress {
 .bannerbott1{
     padding: 2em;
     background:  rgba(0, 0, 0, 0.32);
-    border-bottom: 2px solid #f0b50a;
+    border-bottom: 2px solid #00cccc;
 }
 .bannerbott1:hover {
     border-bottom: 2px solid transparent;
@@ -1353,7 +1351,7 @@ ul.banneraddress {
     margin-left: 10px;
 }
 .bannerbott1 span.fa {
-    color: #f0b50a;
+    color: #00cccc;
 	margin-right: 10px;
 	font-size:20px;
 }
