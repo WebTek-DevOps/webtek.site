@@ -870,7 +870,7 @@ button.btn1{
 	padding:1em;
     font-size: 15px;
     cursor: pointer;
-    background: #f0b50a;
+    background: #00cccc;
     margin: 4px auto 0px;
     outline: none;
     border: none;
@@ -1708,7 +1708,7 @@ button.close {
 		margin-left: 8px;
 	}
 	.bannerbott1 span.fa {
-		color: #f0b50a;
+		color: #00cccc;
 	}
 	nav ul.footericons {
 		display: none;
