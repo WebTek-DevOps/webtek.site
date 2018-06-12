@@ -362,6 +362,7 @@ div#team {
     text-align: center;
 	width: 160px;
 	height: 160px;
+	vertical-align: center;
 }
 .agileits_team_grid_figure_social{
 	margin:4em 0 0 0.5em;
@@ -398,7 +399,7 @@ div#team {
     border-bottom: 10px solid #00cccc;
 }
 .agileits_team_grid:nth-child(3) {
-    margin-right: 0%;
+    margin-right: 20%;
 }
 .team span,h3.wthree_head.two  span {
     color: #fff;
@@ -1561,7 +1562,7 @@ button.close {
 	}
 	.bottomgrid1 {
 		width: 50%;	
-		float: left;
+		float: none;
 	}
 	.bottomgrid1:nth-child(1),.bottomgrid1:nth-child(2) {
 		margin-bottom: 3em;
@@ -1938,7 +1939,7 @@ button.close {
 @media(max-width:414px){
 	.bottomgrid1 {
 		width: 100%;
-		float: left;
+		float: none;
 	}
 	.bottomgrid1:nth-child(1), .bottomgrid1:nth-child(2),.bottomgrid1:nth-child(3) {
 		margin-bottom: 2em;
