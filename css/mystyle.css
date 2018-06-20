@@ -1,0 +1,11 @@
+
+@media (min-width: 640px){
+    .team1{
+        margin-left:10%; 
+        }
+}
+@media (min-width: 400px){
+    .year1{
+        margin-left:10%; 
+        }
+}
